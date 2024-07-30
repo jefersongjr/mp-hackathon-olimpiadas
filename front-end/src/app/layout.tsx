@@ -1,4 +1,5 @@
 import { OlympicsProvider } from "./data/context/OlympicsContext"
+import './globals.css'
 
 export const metadata = {
   title: 'Next.js',
