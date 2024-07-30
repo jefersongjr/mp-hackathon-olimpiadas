@@ -7,7 +7,7 @@ const nextConfig = {
       return [
         {
           source: '/api/:path*',
-          destination: 'https://apis.codante.io/olympic-games/:path*',
+          destination: `${process.env.API_BASE_URL}/:path*`,
         },
       ];
     },
