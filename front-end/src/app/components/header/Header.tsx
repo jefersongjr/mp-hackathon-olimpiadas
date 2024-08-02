@@ -11,7 +11,7 @@ const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-gray-100 border-b-2 border-gray-200 text-gray-800 flex fixed top-0 left-0 right-0 z-50 w-full">
+    <header className="bg-[#D6C278] border-b-2  border-gray-200 text-gray-800 flex fixed top-0 left-0 right-0 z-50 w-full">
       <div className="container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 h-24">
         {/* Mobile Menu Button */}
         <div className="lg:hidden flex items-center">
